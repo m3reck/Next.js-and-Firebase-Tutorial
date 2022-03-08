@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+$dark-red: rgb(119, 27, 27);
+$black: black;
+$whiteSmoke: whiteSmoke;
+
 .container{
   display: flex;
   margin: 10px
@@ -11,9 +15,9 @@
   width: 15rem;
   height: 2rem;
   cursor: pointer;
-  background-color: black;
-  color: whitesmoke;
-  border: black;
+  background-color: $black;
+  color: $whiteSmoke;
+  border: $black;
   font-family: "Roboto", sans-serif;
 }
 .input{
@@ -26,4 +30,16 @@
 }
 .btnContainer{
   width: 20px;
+}
+.saveBtn{
+  width: 15rem;
+  height: 2rem;
+  cursor: pointer;
+  background-color: $dark-red;
+  color: $whiteSmoke;
+  border: $dark-red;
+  font-family: 'Roboto', sans-serif;
+}
+.ReactQuill{
+  width: 15rem;
 }
