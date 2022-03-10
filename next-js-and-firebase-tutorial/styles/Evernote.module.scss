@@ -43,3 +43,26 @@ $whiteSmoke: whiteSmoke;
 .ReactQuill{
   width: 15rem;
 }
+.notesInner{
+  margin-top: 0.5rem;
+  border: 1px solid $dark-red;
+  border-radius: 10px;
+  width: 15rem;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.notesInner:hover{
+  background-color: $dark-red;
+  color: $whiteSmoke;
+}
+.editButton, .deleteButton{
+  width: 5rem;
+  height: 2rem;
+  background-color: rgb(119, 27, 27);
+  color: $whiteSmoke;
+  border: none;
+  cursor: pointer;
+  margin: 10px 10px 10px 0;
+}
